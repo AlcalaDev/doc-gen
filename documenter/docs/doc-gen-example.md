@@ -4,6 +4,43 @@
 
 ## doc-gen-example package
 
+## Classes
+
+<table><thead><tr><th>
+
+Class
+
+
+</th><th>
+
+Description
+
+
+</th></tr></thead>
+<tbody><tr><td>
+
+[GetPokemonByName](./doc-gen-example.getpokemonbyname.md)
+
+
+</td><td>
+
+Represents a use case to retrieves information about pokemon.
+
+
+</td></tr>
+<tr><td>
+
+[GetPokemonList](./doc-gen-example.getpokemonlist.md)
+
+
+</td><td>
+
+Represents a use case to retrieves information about pokemon.
+
+
+</td></tr>
+</tbody></table>
+
 ## Interfaces
 
 <table><thead><tr><th>
@@ -23,6 +60,26 @@ Description
 
 
 </td><td>
+
+
+</td></tr>
+<tr><td>
+
+[Pokemon](./doc-gen-example.pokemon.md)
+
+
+</td><td>
+
+
+</td></tr>
+<tr><td>
+
+[PokemonRepository](./doc-gen-example.pokemonrepository.md)
+
+
+</td><td>
+
+Represents a repository for managing pokemon information
 
 
 </td></tr>

@@ -15,8 +15,9 @@
     ],
     "scripts": {
         "doc": "yarn doc:json && yarn doc:markdown",
-        "doc:markdown": "api-documenter markdown -i ../__doc_report__ -o ../documenter/docs",
+        "doc:markdown": "api-documenter markdown -i ../__doc_report__ -o ../documenter/docs && yarn doc:json:remove",
         "doc:json": "api-extractor run --local --verbose",
+        "doc:json:remove": "rm -rf ../__doc_report__/",
         "build": "rm -rf dist/ && prettier --write src/ && npm run build:esm && npm run build:cjs",
         "build:esm": "tsc",
         "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
