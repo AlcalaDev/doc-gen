@@ -9,3 +9,9 @@ How to use:
 How to see:
 
 - [Documentation deployed](https://alcaladev.github.io/doc-gen/)
+
+// TODO:
+
+- Automatize documentation generation on push
+- Send documentation of the project no another project in same organization:
+  - [Example here](https://stackoverflow.com/questions/65997950/how-let-github-actions-workflow-push-generated-documentation-to-other-repository)
